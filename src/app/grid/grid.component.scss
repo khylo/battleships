@@ -1,0 +1,12 @@
+div{
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+div:hover{
+    background-color: lightblue;
+}

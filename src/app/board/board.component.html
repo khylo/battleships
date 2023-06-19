@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div *ngFor="let col of cols" class="col-xs-1 col-sm-1 col-md-1 col-lg-1 header">{{col+1}}</div>
+    </div>
+    <div *ngFor="let row of rows" class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 header">{{row}}</div>
+
+        <div *ngFor="let col of cols" class="col-xs-1 col-sm-1 col-md-1 col-lg-1 grid" [title]="getIdByLetter(row,col)">{{getType(row,col)}}</div>
+        
+    </div>
+</div>

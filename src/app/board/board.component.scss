@@ -1,0 +1,18 @@
+.header{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.grid{
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.grid:hover{
+    background-color: lightblue;
+}
